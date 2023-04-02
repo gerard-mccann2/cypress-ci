@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "cypress": "^12.9.0"
+  },
+  "dependencies": {
+    "npm": "^9.6.3"
   }
 }
