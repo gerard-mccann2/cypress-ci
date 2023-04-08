@@ -8,11 +8,13 @@ RUN npm --version
 WORKDIR /
 
 # copy our test application
-COPY package.json package-lock.json /
+# COPY package.json package-lock.json /
 
 # copy Cypress tests
-COPY cypress.config.js cypress /
-COPY cypress /cypress
+# COPY cypress.config.js cypress /
+# COPY cypress /cypress
+
+COPY / /
 
 # avoid many lines of progress bars during install
 # https://github.com/cypress-io/cypress/issues/1243
